@@ -46,17 +46,16 @@
       <password>Harmandil1</password>
       <applicationName>customerapiV2</applicationName>
       <environment>Sandbox</environment>
+      <region>us-e2.cloudhub.io</region>
+            <workerType>Micro</workerType>
+            <workers>1</workers>
       <properties>
         <key>value</key>
       </properties>
     </cloudHubDeployment>
   </configuration>
 </plugin>
-<plugin>
-  <groupId>org.mule.tools.maven</groupId>
-  <artifactId>mule-maven-plugin</artifactId>
-  <version>3.3.5</version>
-</plugin>
+
 		</plugins>
 	</build>
 
