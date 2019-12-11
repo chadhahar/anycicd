@@ -134,7 +134,7 @@ output application/json
             </ee:variables>
         </ee:transform>
         <db:select doc:name="Select" doc:id="5a922bb5-c610-484d-b507-ea0f23c5b52f" config-ref="Database_Config">
-			<db:sql >SELECT * FROM customer.customer  where customerID =:customerID;</db:sql>
+			<db:sql >SELECT * FROM customer.customer  where customerID =:customerID</db:sql>
 			<db:input-parameters ><![CDATA[#[{'customerID' : attributes.uriParams.id}]]]></db:input-parameters>
 		</db:select>
 		<ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd" doc:id="6703d29a-f890-4d8b-b53b-d78626cd0413">
