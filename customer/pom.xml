@@ -41,7 +41,7 @@
   <configuration>
     <cloudHubDeployment>
       <uri>https://anypoint.mulesoft.com</uri>
-      <muleVersion>4.2.0</muleVersion>
+      <muleVersion> 4.2.2</muleVersion>
       <username>harman</username>
       <password>Harmandil1</password>
       <applicationName>customerapiV2</applicationName>
