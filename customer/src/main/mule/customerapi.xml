@@ -159,7 +159,7 @@ output application/json
     </flow>
     <flow name="get:\customers:customerapi-config">
         <db:select doc:name="Select" doc:id="b3e5335f-277d-45eb-acd1-46afc2a275c6" config-ref="Database_Config">
-			<db:sql >SELECT * FROM customer.customer  ;</db:sql>
+			<db:sql >SELECT * FROM customer.customer ;</db:sql>
 		</db:select>
 		<ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd" doc:id="c8a4653c-fe4a-43e6-bd7b-40a06c94a471">
             <ee:message>
