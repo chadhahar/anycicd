@@ -44,7 +44,7 @@
       <muleVersion> 4.2.2</muleVersion>
       <username>harman</username>
       <password>Harmandil1</password>
-      <applicationName>customerapi-autodiscovery1</applicationName>
+      <applicationName>customerapi-autodiscovery2</applicationName>
       <environment>Sandbox</environment>
             <workerType>Micro</workerType>
             <workers>1</workers>
