@@ -9,6 +9,7 @@ http://www.mulesoft.org/schema/mule/api-gateway http://www.mulesoft.org/schema/m
     <db:config name="Database_Config" doc:name="Database Config" doc:id="f42d89ba-4ba4-42da-9643-871324b2ecd4" >
 		<db:my-sql-connection host="35.192.158.91" port="3306" user="root" password="root" />
 	</db:config>
+	<api-gateway:autodiscovery apiId="15915798" doc:name="API Autodiscovery" doc:id="b4bfe6de-b9a9-4ee9-a42b-6b431bb12140" flowRef="customerapi-main" />
 	<flow name="customerapi-main">
         <http:listener config-ref="customerapi-httpListenerConfig" path="/api/*">
             <http:response statusCode="#[vars.httpStatus default 200]">
