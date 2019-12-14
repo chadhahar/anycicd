@@ -194,8 +194,7 @@ output application/json
 `postalCode`,
 `state`)
 VALUES
-(:customerID,:firstName,:lastName,:email,:streetAddress,:city,:postalCode,:state);
-</db:sql>
+(:customerID,:firstName,:lastName,:email,:streetAddress,:city,:postalCode,:state);</db:sql>
 			<db:input-parameters ><![CDATA[#[{'customerID' : randomInt(100000),'firstName': payload.firstName, 'lastName': payload.lastName,'email':payload.email, 'streetAddress':payload.address.streetAddress,'city':payload.address.city,'postalCode':payload.address.postalCode,'state':payload.address.state}]
 ]]></db:input-parameters>
 		</db:insert>
