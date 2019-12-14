@@ -183,7 +183,7 @@ output application/json
         </ee:transform>
     </flow>
     <flow name="post:\customers:application\json:customerapi-config">
-		<db:insert doc:name="Insert" doc:id="124c867d-3832-466e-8f8e-45bb01b5d085" config-ref="Database_Config">
+		<db:insert doc:name="Insert" doc:id="7bcf5cbb-0359-4dfd-af70-99d67ebb1fbd" config-ref="Database_Config">
 			<db:sql >INSERT INTO `customer`.`customer`
 (`customerID`,
 `firstName`,
@@ -203,7 +203,12 @@ VALUES
                 <ee:set-payload><![CDATA[%dw 2.0
 output application/json
 ---
-"Customer Created"]]></ee:set-payload>
+{
+	
+	
+"message": "customer created sucessfully"
+}
+]]></ee:set-payload>
             </ee:message>
         </ee:transform>
     </flow>
