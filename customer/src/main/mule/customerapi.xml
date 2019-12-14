@@ -183,7 +183,7 @@ output application/json
         </ee:transform>
     </flow>
     <flow name="post:\customers:application\json:customerapi-config">
-        <db:insert doc:name="Insert" doc:id="32950eb9-7c20-4889-8ced-580570481d1f" config-ref="Database_Config">
+		<db:insert doc:name="Insert" doc:id="124c867d-3832-466e-8f8e-45bb01b5d085" config-ref="Database_Config">
 			<db:sql >INSERT INTO `customer`.`customer`
 (`customerID`,
 `firstName`,
