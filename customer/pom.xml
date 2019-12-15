@@ -44,7 +44,7 @@
       <muleVersion> 4.2.2</muleVersion>
       <username>harman</username>
       <password>Harmandil1</password>
-      <applicationName>customerapiV1</applicationName>
+      <applicationName>customerapiV2</applicationName>
       <environment>Sandbox</environment>
             <workerType>Micro</workerType>
             <workers>1</workers>
